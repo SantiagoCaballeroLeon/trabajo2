@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form name="contact" method="POST" data-netlify="true">
+  <div class="mb-3">
+					<label for="name" class="form-label">Nombre</label>
+					<input class="form-control" id="name" name="name" type="text" />
+				</div>
+				<div class="mb-3">
+					<label for="affair" class="form-label">Asunto</label>
+					<input class="form-control" id="affair" name="affair type="text" />
+				</div>
+				<div class="mb-3">
+					<label for="email" class="form-label">Email</label>
+					<input class="form-control" id="email" name="email" type="email" />
+				</div>
+				<div class="form-floating">
+					<textarea
+						class="form-control"
+						id="message"
+						name="message"
+						placeholder="Leave a comment here"
+						style="height: 100px"
+					></textarea>
+					<label for="message">Mensaje</label>
+				</div>
+				<br />
+				<button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+</body>
+</html>
